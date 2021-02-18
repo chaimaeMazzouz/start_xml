@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<ecole>
+    <branche>
+        <nom>Developpement</nom>
+        <classe>
+            <filier>TDI 1</filier>
+            <nombre>32</nombre>
+        </classe>
+        <classe>
+            <filier>TDI 2</filier>
+            <nombre>16</nombre>
+        </classe>
+        <classe>
+            <filier>TDI 3</filier>
+            <nombre>14</nombre>
+        </classe>
+    </branche>
+    <branche>
+        <filier>Gestion</filier>
+        <classe>
+            <nom>GE 1</nom>
+            <nombre>36</nombre>
+        </classe>
+        <classe>
+            <nom>GE 2</nom>
+            <nombre>20</nombre>
+        </classe>
+        <classe>
+            <nom>GE 3</nom>
+            <nombre>18</nombre>
+        </classe>
+    </branche>
+</ecole>

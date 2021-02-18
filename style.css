@@ -1,0 +1,20 @@
+racine {
+  width: 800px;
+  display: table;
+}
+header {
+  display: table-row;
+  font-weight: bold;
+}
+branche,
+classe,
+nombreEleve {
+  display: table-row;
+}
+secondColumn,
+thirdColumn,
+firstColumn {
+  display: table-row;
+  font-weight: bold;
+  text-align: center;
+}
