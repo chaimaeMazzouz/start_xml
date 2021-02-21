@@ -1,20 +1,36 @@
-racine {
-  width: 800px;
+institut {
   display: table;
+  border: 1px solid black;
+  border-spacing: 3px;
 }
-header {
+titre {
+  display: table-caption;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 2px;
+}
+columns {
   display: table-row;
   font-weight: bold;
 }
-branche,
+column {
+  display: table-cell;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid black;
+}
+branche {
+  display: table-row;
+}
+nom,
 classe,
-nombreEleve {
-  display: table-row;
-}
-secondColumn,
-thirdColumn,
-firstColumn {
-  display: table-row;
-  font-weight: bold;
+nb_eleve {
+  display: table-cell;
+  border: 1px solid black;
+  width: 200px;
+  padding: 5px;
   text-align: center;
 }

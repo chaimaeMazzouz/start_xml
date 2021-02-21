@@ -1,0 +1,51 @@
+container {
+  display: block;
+  margin: 13px;
+}
+table {
+  display: table;
+  width: 300px;
+  caption-side: bottom;
+  border: thin solid black;
+  table-layout: fixed;
+  border-spacing: 0;
+}
+colgroup {
+  display: table-column-group;
+}
+col {
+  display: table-column;
+}
+thead {
+  display: table-header-group;
+}
+tbody {
+  display: table-row-group;
+}
+tr {
+  display: table-row;
+}
+th,
+td {
+  display: table-cell;
+  border: thin solid black;
+  text-align: center;
+  font-weight: bold;
+  overflow: hidden;
+}
+th {
+  background: lightgrey;
+}
+td {
+  vertical-align: top;
+}
+caption {
+  display: table-caption;
+  font-size: 90%;
+  text-align: right;
+}
+td,
+th,
+caption {
+  padding: 5px;
+}

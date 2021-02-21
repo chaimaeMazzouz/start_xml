@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href ="style.css" type="text/css"?>
-<racine>
-  <header>
-     Repartition des stagiaires par classe
-  </header>
-  <column>
-     <firstColumn>Branche</firstColumn>
-     <branche>Developpement</branche>
-     <branche>Gestion</branche>
-  </column>
-  <column>
-     <secondColumn>Classe</secondColumn>
-     <classe>TDI1</classe>
-     <classe>TDI2</classe>
-     <classe>TDI3</classe>
-     <classe>GE1</classe>
-     <classe>GE2</classe>
-     <classe>GE3</classe>
-  </column>
-   <column>
-   <thirdColumn>Nombre d'eleves</thirdColumn>
-     <nombreEleve>16</nombreEleve>
-     <nombreEleve>14</nombreEleve>
-     <nombreEleve>32</nombreEleve>
-     <nombreEleve>16</nombreEleve>
-     <nombreEleve>14</nombreEleve>
-  </column>
-</racine>
+<institut>
+  <titre>Repartition des stagiaires par classe</titre>
+  <columns>
+    <column>Branch</column>
+    <column>Class</column>
+    <column>nombre d'eleves</column>
+  </columns>
+  <branche>
+    <nom>Developpement</nom>
+    <classe>TDI1</classe>
+    <nb_eleve>32</nb_eleve>
+  </branche>
+  <branche>
+    <nom>Developpement</nom>
+    <classe>TDI1</classe>
+    <nb_eleve>16</nb_eleve>
+  </branche>
+   <branche>
+    <nom>Developpement</nom>
+    <classe>TDI2</classe>
+    <nb_eleve>32</nb_eleve>
+  </branche>
+   <branche>
+    <nom>Developpement</nom>
+    <classe>TDI3</classe>
+    <nb_eleve>14</nb_eleve>
+  </branche>
+   <branche>
+    <nom>Gestion</nom>
+    <classe>GE1</classe>
+    <nb_eleve>36</nb_eleve>
+  </branche> 
+   <branche>
+    <nom>Gestion</nom>
+    <classe>GE1</classe>
+    <nb_eleve>20</nb_eleve>
+  </branche> 
+  <branche>
+    <nom>Gestion</nom>
+    <classe>GE1</classe>
+    <nb_eleve>18</nb_eleve>
+  </branche>
+</institut>
